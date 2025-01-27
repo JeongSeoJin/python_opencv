@@ -22,7 +22,7 @@ while(True):
     cv2.imshow('color', img_color) # 저장된 이미지 출력
     cv2.imshow('gray color', img_gray) # grayscale 영상
  
-    if cv2.waitKey(1) & 0xFF == 27:  # ESC를 누르면 종료
+    if cv2.waitKey(delay) & 0xFF == 27:  # ESC를 누르면 종료
         break
 #영상은 캡쳐한 이미지를 연속적으로 출력하는 것.
 
